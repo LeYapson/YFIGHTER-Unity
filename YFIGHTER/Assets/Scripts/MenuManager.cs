@@ -102,4 +102,9 @@ public class MenuManager : MonoBehaviour
     }
 
     #endregion
+
+    public void OnHoverCharacter(){
+        Debug.Log("On button");
+    }
+
 }
