@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CharacterSelectionManager : MonoBehaviour
 {
     public GameObject[] characters;
+    public Toggle[] toggles;
     public int selectedCharacter = 0;
+    public bool isCharacterSelected = false;
     public int onCharacter = 0;
+    public string toggleName;
 
-    public string buttonName;
+    public Button startButton;
+
 
     [Header("First Selected Options")]
     [SerializeField] private GameObject _characterSelectionFirst;
@@ -18,44 +23,66 @@ public class CharacterSelectionManager : MonoBehaviour
     private void Start(){
         characters[selectedCharacter].SetActive(true);
         EventSystem.current.SetSelectedGameObject(_characterSelectionFirst);
+
+        startButton.interactable = false;
     }
 
-    public void OnHoverCharacter(){
-        buttonName = EventSystem.current.currentSelectedGameObject.name;
-        switch (buttonName){
-        case "SelectionCharacterButton1":
-            onCharacter = 0;
-            DisplayHoveredCharacter();
-            break;
-
-        case "SelectionCharacterButton2":
-            onCharacter = 1;
-            DisplayHoveredCharacter();
-            break;
-
-        case "SelectionCharacterButton3":
-            onCharacter = 2;
-            DisplayHoveredCharacter();
-            break;
-
-        default:
-            Debug.Log("Error in selection");
-            break;
+    void Update(){
+        if (isCharacterSelected){
+            startButton.interactable = true;
+        } else {
+            startButton.interactable = false;
         }
     }
 
-    private void DisplayHoveredCharacter(){
+    public void OnHoverToggle(){
+        if (!isCharacterSelected){
+            toggleName = EventSystem.current.currentSelectedGameObject.name;
+            switch (toggleName){
+            case "SelectionCharacterToggle1":
+                DisplayCharacter(0);
+                break;
+
+            case "SelectionCharacterToggle2":
+                DisplayCharacter(1);
+                break;
+
+            case "SelectionCharacterToggle3":
+                DisplayCharacter(2);
+                break;
+
+            default:
+                Debug.Log("Error in selection");
+                break;
+            }
+        }
+    }
+
+    private void DisplayCharacter(int indexCharacter) {
         foreach (var character in characters){
-                character.SetActive(false);
+            character.SetActive(false);
         }
-        characters[onCharacter].SetActive(true);
-        
-        Debug.Log("Selected character : " + onCharacter);
+        characters[indexCharacter].SetActive(true);
     }
 
     public void StartGame(){
-        PlayerPrefs.SetInt("selectedCharacter", onCharacter);
+        PlayerPrefs.SetInt("selectedCharacter", selectedCharacter);
         SceneManager.LoadScene(1, LoadSceneMode.Single);
+    }
+
+    public void ToggleClick(){
+        for (int i = 0; i < toggles.Length; i++){
+            if (toggles[i].isOn){
+                DisplayCharacter(i);
+                selectedCharacter = i;
+            }
+        }
+
+        if(!isCharacterSelected){
+            isCharacterSelected = true;
+        } else {
+            isCharacterSelected = false;
+        }
     }
 
 }
