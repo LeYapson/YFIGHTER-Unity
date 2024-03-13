@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'fr' Physical Memory: 32471 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/doria/OneDrive/Bureau/YNOV/B2_Info/ProjetsYdays/YFIGHTER-Unity/YFIGHTER
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52820
+Successfully changed project path to: C:/Users/doria/OneDrive/Bureau/YNOV/B2_Info/ProjetsYdays/YFIGHTER-Unity/YFIGHTER
+C:/Users/doria/OneDrive/Bureau/YNOV/B2_Info/ProjetsYdays/YFIGHTER-Unity/YFIGHTER
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19600] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2043191769 [EditorId] 2043191769 [Version] 1048832 [Id] WindowsEditor(7,DORIAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19600] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2043191769 [EditorId] 2043191769 [Version] 1048832 [Id] WindowsEditor(7,DORIAN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 9.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/doria/OneDrive/Bureau/YNOV/B2_Info/ProjetsYdays/YFIGHTER-Unity/YFIGHTER/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011964 seconds.
+- Loaded All Assemblies, in  0.407 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (122ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-000002330CEE9040 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330F63FBD0 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330F63FBD0 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000232C8D70630 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330F63FBD0 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000232C8D90640 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330DE09010 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CC03620 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CC03620 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330DE2A020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CC03620 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330DE63640 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E6DD010 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CC03620 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330DE6DA50 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330DE6DA50 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E66A420 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E6FEA20 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E6FEA20 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E737430 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E66A420 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E1A4010 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E02B240 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CC03620 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330D352C40 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E402630 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E402630 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E402630 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.621 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.6 KB). Loaded Objects now: 3957.
+Memory consumption went from 134.9 MB to 134.9 MB.
+Total: 3.092600 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.698700 ms  DeleteObjects: 0.118400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 803631.875980 seconds.
+  path: Assets/Prefabs/Character4.prefab
+  artifactKey: Guid(396db57c05661c34396cd2bedfb7a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character4.prefab using Guid(396db57c05661c34396cd2bedfb7a027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4058fa20ff9e91b7c4a75a30575c85') in 0.103830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/Character2.prefab
+  artifactKey: Guid(171f9139c7c3ac347b00988c2edc5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character2.prefab using Guid(171f9139c7c3ac347b00988c2edc5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb427af047411884f5f46f51bda1d575') in 0.017790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/Character6.prefab
+  artifactKey: Guid(b3b52eeff8e552a4da2584ce321f83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character6.prefab using Guid(b3b52eeff8e552a4da2584ce321f83f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605c04012827dbd2ce010d5e8370d7df') in 0.015548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002330E158040 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CB97890 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E15C240 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330FC06030 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E15C240 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330FFEA040 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E337850 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CAAD460 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330CB50D90 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000233175F1420 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330C80A9D0 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331A31AC20 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023317038020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000233175F1420 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023318D40080 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330FDA1010 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330FF88020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331930F020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330F629020 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330F644BF0 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002331706C040 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002330E337850 doesn't match image C:\Users\doria\OneDrive\Bureau\YNOV\B2_Info\ProjetsYdays\YFIGHTER-Unity\YFIGHTER\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.393 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.089 seconds
+Domain Reload Profiling: 1480ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1090ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3969.
+Memory consumption went from 137.0 MB to 137.0 MB.
+Total: 2.773800 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.126800 ms MarkObjects: 2.399800 ms  DeleteObjects: 0.054400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

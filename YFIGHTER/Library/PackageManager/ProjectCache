@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638453247087948081
-    m_Hash: 990198264
+      ticks: 638459397382421587
+    m_Hash: 1157123123
   m_LockFileStatus:
     m_FilePath: C:/Users/doria/OneDrive/Bureau/YNOV/B2_Info/ProjetsYdays/YFIGHTER-Unity/YFIGHTER/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638453247088000205
-    m_Hash: 3078606751
+      ticks: 638459397382421587
+    m_Hash: 3157973877
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
