@@ -5,8 +5,9 @@ using UnityEngine;
 public class MoveCharacter : MonoBehaviour
 {
     public float speed = 5.0f;
-
+    public float jumpForce = 5.0f;
     public bool isGrounded = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,9 +35,18 @@ public class MoveCharacter : MonoBehaviour
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        if (isGrounded && Input.GetKey(KeyCode.Space))
         {
-            transform.position += new Vector3(0.0f, speed * 3 * Time.deltaTime, 0.0f);
+            GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
         }
     }
 }
