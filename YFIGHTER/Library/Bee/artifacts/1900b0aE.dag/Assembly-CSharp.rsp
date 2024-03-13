@@ -361,6 +361,7 @@
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/LoadCharacter.cs"
 "Assets/Scripts/MenuManager.cs"
+"Assets/Scripts/SlotSelector.cs"
 -langversion:9.0
 
 /deterministic

@@ -6,11 +6,15 @@ using UnityEngine;
 public class LoadCharacter : MonoBehaviour
 {
     public GameObject[] characterPrefabs;
-    public Transform spawnPoint;
+    public Transform spawnPointP1;
+    public Transform spawnPointP2;
 
     void Start(){
-        int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
-        GameObject prefab = characterPrefabs[selectedCharacter];
-        GameObject clone = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
+        int selectedCharacterP1 = PlayerPrefs.GetInt("selectedCharacterP1");
+        int selectedCharacterP2 = PlayerPrefs.GetInt("selectedCharacterP2");
+        GameObject prefabP1 = characterPrefabs[selectedCharacterP1];
+        GameObject prefabP2 = characterPrefabs[selectedCharacterP2];
+        GameObject cloneP1 = Instantiate(prefabP1, spawnPointP1.position, Quaternion.identity);
+        GameObject cloneP2 = Instantiate(prefabP2, spawnPointP2.position, Quaternion.identity);
     }
 }
