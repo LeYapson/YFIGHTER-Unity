@@ -864,7 +864,7 @@ RectTransform:
   m_GameObject: {fileID: 625129702}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8980668, y: 1.8980668, z: 1.8980668}
+  m_LocalScale: {x: -1.898067, y: 1.8980668, z: 1.8980668}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1112426075}
@@ -1943,7 +1943,6 @@ GameObject:
   - component: {fileID: 1112426078}
   - component: {fileID: 1112426077}
   - component: {fileID: 1112426076}
-  - component: {fileID: 1112426079}
   m_Layer: 0
   m_Name: SelectionCanvas
   m_TagString: Untagged
@@ -2040,19 +2039,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1112426079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112426074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcbbfe2010d681241934bffb882e3d80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttons: []
 --- !u!1 &1158898406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,7 +2371,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 525, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258662632
 MonoBehaviour:

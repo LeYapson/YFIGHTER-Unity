@@ -10,6 +10,7 @@ public class LoadCharacter : MonoBehaviour
     public Transform spawnPointP2;
 
     void Start(){
+        Debug.Log(PlayerPrefs.GetInt("selectedMap"));
         int selectedCharacterP1 = PlayerPrefs.GetInt("selectedCharacterP1");
         int selectedCharacterP2 = PlayerPrefs.GetInt("selectedCharacterP2");
         GameObject prefabP1 = characterPrefabs[selectedCharacterP1];
