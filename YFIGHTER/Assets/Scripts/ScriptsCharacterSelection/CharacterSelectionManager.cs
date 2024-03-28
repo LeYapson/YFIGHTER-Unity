@@ -41,7 +41,7 @@ public class CharacterSelectionManager : MonoBehaviour
     }
 
 	void Update () {
-        #region Player 1 Navigation functions
+        #region Player 1 Navigation Inputs
 
 		if(Input.GetKeyDown(KeyCode.A)){
             if(!_isCharacterSelectedP1){
@@ -81,7 +81,7 @@ public class CharacterSelectionManager : MonoBehaviour
 
         #endregion
 
-        #region Player 2 Navigation functions
+        #region Player 2 Navigation Inputs
 
 		if(Input.GetKeyDown(KeyCode.LeftArrow)){
 			MoveNav(2, -1);
@@ -121,6 +121,8 @@ public class CharacterSelectionManager : MonoBehaviour
 
         #endregion
 	}
+
+    #region Navigators Function
 
 	void MoveNav(int player, int change){
         switch (player){
@@ -166,6 +168,10 @@ public class CharacterSelectionManager : MonoBehaviour
             }
 	}
 
+    #endregion
+
+    #region Display Hovered Character Function
+
     private void DisplayCharacter(int player, int indexCharacter) {
         switch (player){
             case 1:
@@ -185,6 +191,8 @@ public class CharacterSelectionManager : MonoBehaviour
                 break;
             }
     }
+
+    #endregion
 
     public void StartGame(){
         PlayerPrefs.SetInt("selectedCharacterP1", _selectedCharacterP1);

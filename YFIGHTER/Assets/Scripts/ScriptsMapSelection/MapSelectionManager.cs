@@ -30,7 +30,7 @@ public class MapSelectionManager : MonoBehaviour
     }
 
 	void Update () {
-        #region Player 1 Navigation functions
+        #region Map Navigator Inputs
 
 		if(Input.GetKeyDown(KeyCode.A)){
             if (_navPos == 12){
@@ -40,7 +40,7 @@ public class MapSelectionManager : MonoBehaviour
                 MoveNav(1);
             }
             
-            // DisplayCharacter(1, _nav1Pos);
+            // DisplayCharacter(_nav1Pos);
 
 		}
 
@@ -79,8 +79,19 @@ public class MapSelectionManager : MonoBehaviour
         }
 
         #endregion
+
+        #region Start Button interactable
+
+        if (_isMapSelected){
+            startButton.interactable = true;
+        } else {
+            startButton.interactable = false;
+        }
+
+        #endregion
 	}
 
+    #region Navigator functions
 	void MoveNav(int change){
         if(change > 0){
             if(_navPos + change < slots.Length - 1){
@@ -98,7 +109,7 @@ public class MapSelectionManager : MonoBehaviour
         navigator.transform.position = slots[_navPos].position;
 	}
 
-    // private void DisplayCharacter(int indexCharacter) {
+    // private void DisplayMap(int indexCharacter) {
     //     switch (player){
     //         case 1:
     //             foreach (var character in charactersPlayer1){
@@ -117,6 +128,8 @@ public class MapSelectionManager : MonoBehaviour
     //             break;
     //         }
     // }
+
+    #endregion
 
     public void StartGame(){
         PlayerPrefs.SetInt("selectedMap", _selectedMap);

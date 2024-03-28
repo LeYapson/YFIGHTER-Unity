@@ -368,7 +368,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 80720401}
   m_OnClick:
     m_PersistentCalls:
@@ -829,10 +829,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 308681785}
   - {fileID: 56011679}
-  - {fileID: 1168047192}
+  - {fileID: 308681785}
   - {fileID: 80720399}
+  - {fileID: 1168047192}
   - {fileID: 787896476}
   m_Father: {fileID: 1120693058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 787896478}
   - component: {fileID: 787896477}
   m_Layer: 5
-  m_Name: Image
+  m_Name: SelectorStartSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1161,7 +1161,7 @@ GameObject:
   - component: {fileID: 1168047194}
   - component: {fileID: 1168047193}
   m_Layer: 5
-  m_Name: SelectorImage
+  m_Name: SelectorMapSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

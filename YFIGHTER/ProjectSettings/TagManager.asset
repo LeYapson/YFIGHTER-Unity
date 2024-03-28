@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ToggleSelector
+  - Player1
+  - Player2
+  - HealthBar
   layers:
   - Default
   - TransparentFX
